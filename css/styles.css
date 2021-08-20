@@ -1,0 +1,57 @@
+:root {
+    font-family: "Open Sans";
+}
+
+
+h1, h2 {
+    font-family: Roboto;
+}
+
+#main {
+    /*Aligns all three div elements to center*/
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    
+}
+
+#img-div {
+    /*Aligns img and img-caption to center within their div*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    max-width: 500px;
+}
+
+#img-caption {
+
+}
+
+#tribute-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-info {
+    width: 700px;
+}
+
+.height {
+    line-height: 15px;
+}
+
+.release-date {
+    margin: -15px 0 -10px 0;
+}
+
+#tribute-link {
+
+}
